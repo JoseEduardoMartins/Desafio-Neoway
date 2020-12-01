@@ -2,8 +2,7 @@
 # Na minha maquina, tive que instalar o bs4, talves você também devera. 
 # Abrindo o prompt de comando digite o comando "pip install beautifulsoup4" para realizar a instalação.
 
-
-# Se não funcionar esta linha de comando, tende usando html5lib com esta linha de comando "soup = BeautifulSoup(page, 'html5lib')"
+# Se não funcionar a linha 8 'soup = BeautifulSoup(page, "lxml")', tende usando html5lib com esta linha de comando "soup = BeautifulSoup(page, 'html5lib')"
 
 # No caso agora faltaria a parte em que um busco os dados de cada uf,
 # estava tentando achar um jeito de chegar até a pagina de resultados de cada uf,
